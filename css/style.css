@@ -1,0 +1,39 @@
+div.list {
+    float: left;
+    min-width: 15%;
+    margin-top: 1em;
+    margin-left: 1em;
+    background-color: brown;
+}
+
+div.task {
+    min-width: 15%;
+    margin-top: 1em;
+    margin-left: 1em;
+    background-color: brown;
+}
+
+h3.titleList {
+    height: 10px;
+}
+
+a.btnDeleteList {
+    float: right;
+}
+
+img.imgs {
+    width: 20px;
+    height: 20px;
+}
+
+input.inputTask {
+    width: 70%;
+}
+
+a.btnAddTask {
+    float: right;
+}
+
+input.textOfTasks {
+
+}
