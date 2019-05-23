@@ -2,17 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./components/header/header.css"/>
+    <link rel="stylesheet" type="text/css" href="./components/list/list.css"/>
     <script type="text/javascript" src="./js/main.js"></script>
-    <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="./libraries/jquery-3.3.1.js"></script>
     <title>Scrum-board</title>
 </head>
 <body>
-    <header>
+    <header id="header"></header>
+    <article id="article"></article>
+
+    <script src="./components/header/header.js"></script>
+    <!-- <header>
         <input id="input" type="text" placeholder="Add list">
         <button onclick="addList()">Add</button>
     </header>
     <section id="section" class="lists">
-    </section>
+    </section> -->
 </body>
 </html>
